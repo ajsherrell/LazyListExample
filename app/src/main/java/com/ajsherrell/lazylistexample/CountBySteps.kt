@@ -1,6 +1,6 @@
 package com.ajsherrell.lazylistexample
 
-// create a lazy list that generates a list of numbers that counts by a given int.
+// Create a list of numbers that counts by a given int, or step.
 // Stop the list at 1000.
 class CountBySteps(private val step: Int) : Iterable<Int> {
     override fun iterator(): Iterator<Int> {
