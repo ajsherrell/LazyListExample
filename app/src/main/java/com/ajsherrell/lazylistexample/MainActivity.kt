@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             LazyListExampleTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        CountByStepsList(10, modifier = Modifier.fillMaxSize())
+                        ItemList(list = FruitData.fruitList, modifier = Modifier.fillMaxSize())
                     }
                 }
             }
@@ -33,6 +33,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun CountByStepsListPreview() {
     LazyListExampleTheme {
-        CountByStepsList(step = 5, modifier = Modifier.fillMaxSize())
+        ItemList(list = FruitData.fruitList, modifier = Modifier.fillMaxSize())
     }
 }
