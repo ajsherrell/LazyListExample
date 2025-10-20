@@ -27,7 +27,8 @@ The scaffold lambda provides `innerPadding` — apply this so your content avoid
 - `CountBySteps.kt`  
   Provides a class that renders items by a numeric step using Kotlin's built-in Iterator.
 
-// image to be added later
+### Starter Image:
+
 
 ## Exercise (do not copy the solution)
 
